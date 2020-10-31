@@ -1,0 +1,16 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/fonts';
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/button';
+@import 'blocks/subscribe';
+@import 'blocks/pageup';

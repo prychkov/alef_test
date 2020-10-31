@@ -1,0 +1,77 @@
+.header {
+    min-height: 252px;
+    padding: 39.85px 0 66px 0;
+    background: url('../img/bg_header.jpg') center (center / cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__logo {
+        width: 78px;
+        margin-right: 120px;
+        img {
+            width: 100%;
+        }
+    }
+    &__menu {
+        width: 399px;
+        margin-right: 364px;
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            list-style-type: none;
+            padding-left: 0;
+            margin-bottom: 0;
+            li {
+                a {
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 22px;
+                    color: #FFFFFF;
+                    &:hover {
+                        color: #6EBBD3;
+                    }
+                    &:active {
+                        color: #f00;
+                    }
+                }
+            }
+        }
+    }
+    &__contacts {
+        width: 219px;
+    }
+    &__phone {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 23px;
+        color: #FFFFFF;
+        &:hover {
+            color: #6EBBD3;
+        }
+        &:active {
+            color: #f00;
+        }
+    }
+    &__text {
+        margin-top: 3px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 18px;
+        text-align: right;
+        color: #FFFFFF;
+    }
+    &__title {
+        margin-top: 49.85px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 38px;
+        line-height: 38px;
+        color: #FFFFFF;
+    }
+}

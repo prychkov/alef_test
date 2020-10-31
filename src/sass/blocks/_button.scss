@@ -1,0 +1,37 @@
+.button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 41px;
+    padding: 24px 127px;
+    width: 380px;
+    height: 65px;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #000000;
+    text-align: center;
+    &:hover {
+        box-shadow: 3px 3px 10px black;
+    }
+    &:active {
+        background-color: red;
+    }
+    &_form {
+        margin: 0;
+        padding: 22px 75px 26px 75px;
+        width: 250px;
+        height: 65px;
+        background: #6EBBD3;  
+        font-weight: 700;
+        line-height: 17px;
+        color: #FFFFFF;
+        &:hover {
+            box-shadow: 3px 3px 10px #6EBBD3;
+        }
+    }
+}

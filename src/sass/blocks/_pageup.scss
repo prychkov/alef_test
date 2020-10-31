@@ -1,0 +1,22 @@
+.pageup {
+    width: 100%;
+    position: fixed;
+    bottom: 114px;
+    right: 0;
+    &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 100%;
+    transform: translateX(-100%);
+    width: 59px;
+    height: 59px;
+    background: #6EBBD3;
+        &:hover {
+            box-shadow: 3px 3px 10px #6EBBD3;
+        }
+        &:active {
+            background-color: red;
+        }
+    }
+}
