@@ -42,26 +42,26 @@
         <div class="container">
             <div class="promo__sort">
                     <div class="promo__item">Сортировать по:</div>
-                    <a href="#" class="promo__link">
+                    <div class="promo__link" id="sort-price">
                         <span>Цене</span>
                         <img src="icons/arrow_down.svg" alt="arrow_down">
-                    </a>
-                    <a href="#" class="promo__link">
+                    </div>
+                    <div class="promo__link" id="sort-old">
                         <span>Возрасту</span>
                         <img src="icons/arrow_down.svg" alt="arrow_down">
-                    </a>
+                    </div>
             </div>
             <div class="promo__wrapper">
-                <div class="promo-card">
+                <div class="promo-card" data-price="50000" data-old="5">
                     <img src="img/cat_left.jpg" alt="cat">
                     <div class="promo-card__descr">
                         <div class="promo-card__title">Кот полосатый</div>
                         <div class="promo-card__items">
                             <div class="promo-card__item">Коричневый<br>окрас</div>
-                            <div class="promo-card__item"><span>2 мес.</span><br>Возраст</div>
+                            <div class="promo-card__item"><span>5 мес.</span><br>Возраст</div>
                             <div class="promo-card__item"><span>4</span><br>Кол-во лап</div>
                         </div>
-                        <div class="promo-card__price">30 000 руб.</div>
+                        <div class="promo-card__price">50 000 руб.</div>
                     </div>
                     <button class="promo-card__btn">Купить</button>
                     <div class="promo-card__wrapper">
@@ -69,13 +69,13 @@
                     </div>
                     <div class="promo-card__discount">-40%</div>
                 </div>
-                <div class="promo-card">
+                <div class="promo-card" data-price="30000" data-old="3">
                     <img src="img/cat_middle.jpg" alt="cat">
                     <div class="promo-card__descr">
                         <div class="promo-card__title">Кот полосатый</div>
                         <div class="promo-card__items">
                             <div class="promo-card__item">Коричневый<br>окрас</div>
-                            <div class="promo-card__item"><span>2 мес.</span><br>Возраст</div>
+                            <div class="promo-card__item"><span>3 мес.</span><br>Возраст</div>
                             <div class="promo-card__item"><span>4</span><br>Кол-во лап</div>
                         </div>
                         <div class="promo-card__price">30 000 руб.</div>
@@ -85,39 +85,39 @@
                         <div class="promo-card__heart"></div>
                     </div>
                 </div>
-                <div class="promo-card">
+                <div class="promo-card" data-price="10000" data-old="1">
                     <img src="img/cat_right.jpg" alt="cat">
                     <div class="promo-card__descr">
                         <div class="promo-card__title">Кот полосатый</div>
                         <div class="promo-card__items">
                             <div class="promo-card__item">Коричневый<br>окрас</div>
-                            <div class="promo-card__item"><span>2 мес.</span><br>Возраст</div>
+                            <div class="promo-card__item"><span>1 мес.</span><br>Возраст</div>
                             <div class="promo-card__item"><span>4</span><br>Кол-во лап</div>
                         </div>
-                        <div class="promo-card__price">30 000 руб.</div>
+                        <div class="promo-card__price">10 000 руб.</div>
                     </div>
                     <button class="promo-card__btn">Купить</button>
                     <div class="promo-card__wrapper">
                         <div class="promo-card__heart"></div>
                     </div>
                 </div>
-                <div class="promo-card">
+                <div class="promo-card" data-price="40000" data-old="4">
                     <img src="img/cat_left.jpg" alt="cat">
                     <div class="promo-card__descr">
                         <div class="promo-card__title">Кот полосатый</div>
                         <div class="promo-card__items">
                             <div class="promo-card__item">Коричневый<br>окрас</div>
-                            <div class="promo-card__item"><span>2 мес.</span><br>Возраст</div>
+                            <div class="promo-card__item"><span>4 мес.</span><br>Возраст</div>
                             <div class="promo-card__item"><span>4</span><br>Кол-во лап</div>
                         </div>
-                        <div class="promo-card__price">30 000 руб.</div>
+                        <div class="promo-card__price">40 000 руб.</div>
                     </div>
                     <button class="promo-card__btn">Купить</button>
                     <div class="promo-card__wrapper">
                         <div class="promo-card__heart"></div>
                     </div>
                 </div>
-                <div class="promo-card">
+                <div class="promo-card" data-price="20000" data-old="2">
                     <img src="img/cat_right.jpg" alt="cat">
                     <div class="promo-card__descr">
                         <div class="promo-card__title">Кот полосатый</div>
@@ -126,7 +126,7 @@
                             <div class="promo-card__item"><span>2 мес.</span><br>Возраст</div>
                             <div class="promo-card__item"><span>4</span><br>Кол-во лап</div>
                         </div>
-                        <div class="promo-card__price">30 000 руб.</div>
+                        <div class="promo-card__price">20 000 руб.</div>
                     </div>
                     <button class="promo-card__btn">Купить</button>
                     <div class="promo-card__wrapper">
@@ -134,24 +134,25 @@
                     </div>
                     <div class="promo-card__discount">-40%</div>
                 </div>
-                <div class="promo-card">
+                <div class="promo-card" data-price="60000" data-old="6">
                     <img src="img/cat_middle.jpg" alt="cat">
                     <div class="promo-card__descr">
                         <div class="promo-card__title">Кот полосатый</div>
                         <div class="promo-card__items">
                             <div class="promo-card__item">Коричневый<br>окрас</div>
-                            <div class="promo-card__item"><span>2 мес.</span><br>Возраст</div>
+                            <div class="promo-card__item"><span>6 мес.</span><br>Возраст</div>
                             <div class="promo-card__item"><span>4</span><br>Кол-во лап</div>
                         </div>
-                        <div class="promo-card__price">30 000 руб.</div>
+                        <div class="promo-card__price">60 000 руб.</div>
                     </div>
                     <button class="promo-card__btn promo-card__btn_sold">Продан</button>
                     <div class="promo-card__wrapper">
                         <div class="promo-card__heart"></div>
                     </div>
                 </div>
-                <button class="button">Показать еще 20</button>
+                <!-- <button class="button">Показать еще 20</button> -->
             </div>
+            <button class="button">Показать еще 20</button>
             <div class="subscribe">
                 <div class="subscribe__descr">
                     <h1 class="subscribe__title">Успей купить!</h1>
@@ -173,8 +174,9 @@
             </div>
         </div>
     </section>
-    
-    
+    <!-- <button id="price-btn">цена по возрастанию</button>
+    <button id="price-decrice">цена по убыванию</button>
+    <button id="old">возраст</button> -->
     <script src="js/script.js"></script>
 </body>
 </html>
